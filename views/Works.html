@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chilli</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+<nav class="nav-bar">
+      <ul class="nav-bar-ul">
+        <li> <a class="nav-bar-item" href="/home">Home </a> </li>
+        <li> <a class="nav-bar-item" href="/about">About </a> </li>
+        <li> <a class="nav-bar-item" href="/works">Works </a> </li>
+     
+      </ul>
+    </nav>
+
+    <h1>Works</h1>
+
+     <!-- The grid: four columns -->
+<div class="row" style="width:100%">
+  <div class="column">
+    <img src="/images/Hairdressers.jpg"  alt="Chilli Encourages Bluey to Find Her Ears & Bingo to Find Her Voice" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/images/Yoga-Ball.jpg" alt="Chilli Teaches Bingo How to Big Girl Bark" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/images/The-Pool.jpg" alt="Chilli Brings the Boring Stuff" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/images/Camping.jpg" alt="Chilli Comforts Bluey About losing a friend" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/images/Mum-School.jpg" alt="Chilli Helps Bluey Practice Being a Mom" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div> 
+
+<script type="text/javascript" src="./js/gallery.js"></script>
+  
+  </body>
+</html>
